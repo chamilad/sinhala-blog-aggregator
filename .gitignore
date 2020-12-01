@@ -24,3 +24,6 @@ build/
 
 # poc site
 site/
+
+# public directory
+public
