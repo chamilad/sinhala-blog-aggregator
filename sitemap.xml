@@ -3,26 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/posts/posts/</loc>
+    <loc>https://chamilad.github.io/sinhala-blog-aggregator/posts/posts/</loc>
     <lastmod>2020-11-14T15:00:00+12:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://chamilad.github.io/sinhala-blog-aggregator/posts/</loc>
     <lastmod>2020-11-14T15:00:00+12:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://chamilad.github.io/sinhala-blog-aggregator/</loc>
     <lastmod>2020-11-14T15:00:00+12:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://chamilad.github.io/sinhala-blog-aggregator/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://chamilad.github.io/sinhala-blog-aggregator/tags/</loc>
   </url>
   
 </urlset>
