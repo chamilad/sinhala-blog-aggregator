@@ -1,0 +1,63 @@
+.bg-black {
+	background-color: #333;
+}
+
+body {
+	background-color: #f4f5f7;
+}
+
+.entry {
+	border: 1px #dedede solid;
+	border-radius: 4px;
+	margin: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 30px;
+	max-height: 80px;
+	overflow: hidden;
+	font-family: Helvetica, Tahoma, Trebuchet MS;
+}
+
+.entry:hover {
+	border: 1px #ccc solid;
+	background: #eee;
+	transition: 0.4s;
+}
+
+.prefixdot {
+	
+}
+
+.textcontent {
+	color: #000;
+}
+
+.textcontent .title {
+	font-weight: bold;
+	display: inline;
+}
+
+.textcontent .title a:link {
+	text-decoration: none;
+	color: #0077b6;
+}
+
+.textcontent .title a:visited {
+	color: #aaa;
+	text-decoration: none;
+}
+
+.posttimestamp, .posttimewrap{
+	color: #073b4c;
+	font-size: 11px;
+	display: inline;
+}
+
+.textcontent .postfrag {
+	font-size: 13px;
+}
+
+.textcontent .posturl {
+	font-size: 12px;
+}

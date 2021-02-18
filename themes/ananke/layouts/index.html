@@ -1,7 +1,24 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
 {{ define "main" }}
-  <ul>
   {{ range .Site.Data.latest.posts }}
-  <li>{{ .published | int | dateFormat "Monday, Jan 2, 2006" }}:  <a href="{{ .url }}">{{ .title }}</a></li>
+  {{ $postUrl := urls.Parse .url }}
+  <div class="entry">
+	  <div class="prefixdot">
+	  </div>
+	  <div class="textcontent">
+		  <div class="title">
+			  <a href="{{ .url }}">{{ .title | plainify | truncate 80}}</a>
+		  </div>
+		  <div class="posttimewrap"> (<span class="posttimestamp" datetime="{{ .published | int | dateFormat "January 2, 2006" }}" title="{{ .published | int | dateFormat "January 2, 2006" }}">
+				  {{ .published | int | dateFormat "January 2, 2006" }} </span>)
+		  </div>
+		  <div class="postfrag">
+			  {{ .frag | plainify | truncate 100 }}
+		  </div>
+		  <div class="posturl">
+			  <a href="{{ .url }}">{{ $postUrl.Host }}</a>
+		  </div>
+	  </div>
+  </div>
   {{ end }}
-  </ul>
 {{ end }}

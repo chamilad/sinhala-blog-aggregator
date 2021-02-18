@@ -4,3 +4,6 @@ title = "Sinhala Blog Aggregator"
 
 theme = "ananke"
 
+[params]
+custom_css = ["feedr.css"]
+
